@@ -3,8 +3,8 @@
 const readline = require("node:readline/promises");
 
 const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
+    input: process.stdin,
+    output: process.stdout,
 });
 
 module.exports = { rl };
